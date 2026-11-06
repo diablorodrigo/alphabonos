@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#170d33"/>
+      <stop offset="100%" stop-color="#090514"/>
+    </linearGradient>
+    <linearGradient id="abGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e879f9"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="62" height="62" x="1" y="1" rx="15" fill="url(#bgGrad)" stroke="url(#strokeGrad)" stroke-width="2"/>
+  <!-- Curva de rendimientos estilizada de fondo -->
+  <path d="M 10 46 Q 24 22, 54 14" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="3 2" opacity="0.45"/>
+  <circle cx="54" cy="14" r="3" fill="#38bdf8" opacity="0.85"/>
+  <!-- Monograma AB -->
+  <text x="32" y="40" text-anchor="middle" font-family="'Bricolage Grotesque', Inter, system-ui, sans-serif" font-weight="900" font-size="27" letter-spacing="-1.2" fill="url(#abGrad)">AB</text>
+  <!-- Barra inferior institucional Violeta + Cyan -->
+  <rect x="12" y="49" width="26" height="3.8" rx="1.9" fill="#a855f7"/>
+  <rect x="40" y="49" width="12" height="3.8" rx="1.9" fill="#38bdf8"/>
+</svg>
